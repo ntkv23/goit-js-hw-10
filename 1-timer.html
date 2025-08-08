@@ -5,16 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Timer1</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/stylesmy.css" />
+    <script type="module" crossorigin src="/goit-js-hw-10/assets/styles-DD3qoKza.js"></script>
+    <script type="module" crossorigin src="/goit-js-hw-10/assets/vendor-BbSUbo7J.js"></script>
+    <script type="module" crossorigin src="/goit-js-hw-10/assets/1-timer-D8j_Eg1p.js"></script>
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-DvPDDfy5.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-C1gPI-5C.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/1-timer-mGCL6trA.css">
   </head>
   <body>
-    <load
-      src="./partials/header.html"
-      icon-path="./img/sprite.svg#logo
-      "
-      highlight-act="active"
-    />
+    <header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a class="nav-logo" href="./index.html" aria-label="Site logo">
+        <svg class="nav-logo-icon" width="100" height="30">
+          <use href="./img/sprite.svg#logo
+      "></use>
+        </svg>
+      </a>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link active" href="./1-timer.html">Timer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {=$highlight-curr}" href="./2-snackbar.html"
+            >Snackbar</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
 
     <main>
       <a class="back-link" href="./index.html">Go back</a>
@@ -45,7 +66,21 @@
       </div>
     </main>
 
-    <load src="./partials/footer.html" />
-    <script type="module" src="./js/1-timer.js"></script>
+    <footer class="footer">
+  <div class="container">
+    <p class="footer-desc">
+      Made with ✨ by
+      <a
+        class="footer-link"
+        href="https://goit.global/ua/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GoIT team
+      </a>
+    </p>
+  </div>
+</footer>
+
   </body>
 </html>
